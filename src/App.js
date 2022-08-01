@@ -7,7 +7,7 @@ function App() {
       <div className="container">
         <Navbar />
         <div className="card-container">
-          <Card name="Mineral Water" price={20} indi={250} />
+          <Card name="Mineral Water" price={10} indi={500} shelfNo={1}/>
         </div>
       </div>
     </div>
