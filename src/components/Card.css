@@ -1,0 +1,63 @@
+.card{
+    width: 18rem;
+    height: 45%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f28482;
+    color: #f7ede2;
+    position: relative;
+}
+.card img{
+    
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+    object-fit:fill;
+}
+.desc{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+p{
+    font-size: 0.9rem;
+}
+.desc span{
+    margin-left: 3px;
+    background-color: red;
+    padding: 4px;
+}
+.dec1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 15px;
+    
+}
+
+.lowstock{
+    font-size: 1.1rem;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    animation:0.5s blink infinite alternate-reverse; 
+    right: 0;
+}
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+
+}
